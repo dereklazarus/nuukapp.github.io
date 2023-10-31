@@ -1,0 +1,920 @@
+body{
+    margin: 0px;
+    border: 35px solid white;
+    border-bottom: 0px;
+    font-family: 'Dosis', sans-serif;
+}
+/*------------------sec1----------------------*/
+.sec1{
+    background-image: linear-gradient(45deg,rgba(177, 177, 177, 0.956),rgba(152, 200, 56, 0)), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 575px;
+    width: 100%;
+    margin-bottom: 200px;
+    display: flex;
+    position: relative;
+
+}
+.navbar{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+.social1{
+    background-color: #0A1229;
+    position: absolute;
+    right: 0px;
+    top: 210px;
+    height: 240px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social1 img{
+    height: 20px;
+    width: 20px;
+}
+.line1{
+    width: 40px;
+    height: 1px;
+    background-color: grey;
+}
+.logo{
+    background-color: #E67D22;
+    width: 160px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.logo img{
+    height: 20px;
+}
+.bar{
+    height: 80px;
+    width: 950px;
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.bar ul{
+    display: flex;
+    
+}
+.bar ul li{
+    list-style-type: none;
+    padding: 0px 20px;
+}
+.bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all 1s;
+
+}
+.bar ul li a:hover{
+    text-decoration: none;
+    color: #E67D22 ;
+
+}
+.quote{
+    background-color: #E67D22;
+    font-size: 13px;
+    color: white;
+    height: 80px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    transition: 1s;
+}
+.quote:hover{
+    background-color: #ee964a;
+}
+.sec1_text{
+    justify-self:flex-start;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 170px;
+    left: 140px;
+}
+.sec1_text h1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.sec1_text h5{
+    font-size: 22px;
+    margin-top: 5px;
+    font-weight: 200;
+}
+.quote2{
+    background-color: #E67D22;
+    font-size: 13px;
+    color: white;
+    height: 50px;
+    width: 180px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 300px;
+    left: 140px;
+    transition: 1s;
+}
+.quote2:hover{
+    background-color: #ee964a;
+}
+.orangediv{
+    
+    height: 225px;
+    width: 960px;
+    background-image: linear-gradient(45deg,rgb(254,99,95),rgb(229,114,21));
+    position: absolute;
+    right: 0px;
+    bottom: -100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.help{
+    color: white;
+    height: 80px;
+    width: 250px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.help img{
+    height: 30px;
+    width: 30px;
+}
+.help h3{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.help p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.map a{
+    color: white;
+    text-decoration: none;
+}
+.map:hover{
+    text-decoration: underline;
+}
+/*------------------sec1 end----------------------*/
+/*------------------sec2 start----------------------*/
+.sec2{
+    margin: 200px 10px;
+    margin-bottom: 80px;
+    padding: 100px;
+    padding-top: 30px;
+    position: relative;
+}
+.sec2 h5{
+    color: grey;
+    transition: all 1s;
+    text-decoration: underline white;
+}
+.sec2 h5:hover{
+    text-decoration: underline #E67D22 ;
+    text-decoration-thickness: 4px;
+    cursor: pointer;
+}
+.sec2 p{
+    color: grey;
+}
+.sec2_heading{
+    width: 1200px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 3;
+}
+.sec2_heading h2{
+    font-size: 40px;
+}
+
+.sec2_backtext{
+    color: rgba(231, 231, 231, 0.323);
+    margin: 0px;
+    padding: 0px;
+    font-size: 80px;
+    z-index: 2;
+    position: absolute;
+    top: -115px;
+    left: 55px;
+}
+.sec2_backtext h1{
+    width: 450px;
+    font-weight: 700;
+}
+.sec2box{
+    width: 100%;
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec2_child{
+    margin: 10px;
+    width: 300px;
+    height: 250px;
+}
+.sec2_child img{
+    height: 60px;
+    width: 60px;
+}
+.sec2_child p{
+    font-size: 18px;
+}
+/*------------------sec2 end----------------------*/
+/*------------------sec3 start----------------------*/
+.sec3{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.sec3_child1{
+    
+    height: 390px;
+    width: 580px;
+}
+.sec3_child1 img{
+    height: 390px;
+    width: 580px;
+}
+.sec3_child2{
+    
+    height: 390px;
+    width: 490px;
+    position: relative;
+}
+.sec3_child2 h3{
+    font-size: 40px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    z-index: 3;
+}
+.sec3_child2 h1{
+    font-size: 120px;
+    color: rgba(231, 231, 231, 0.323);
+    position: absolute;
+    top: -180px;
+    font-weight: 600;
+    left: -40px;
+    z-index: 2;
+}
+.sec3_child2 p{
+    font-size: 18px;
+    color: grey;
+}
+.sec3_child2 h5{
+    color: grey;
+    transition: all 1s;
+    text-decoration: underline white ;
+}
+.sec3_child2 h5:hover{
+    text-decoration: underline #E67D22 ;
+    text-decoration-thickness: 2px;
+    cursor: pointer;
+}
+
+/*------------------sec3 end----------------------*/
+/*------------------sec4 start----------------------*/
+.sec4{
+    height: 220px;
+    width: 1290px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+}
+.sec4_child{
+    
+    height: 200px;
+    width: 150px;
+}
+.sec4_child h1{
+    color: #E67D22;
+    font-size: 60px;
+    margin: 0px;
+    font-weight: 600;
+}
+.sec4_child p{
+    font-size: 18px;
+    color: grey;
+    margin-top: 5px;
+}
+/*------------------sec4 end----------------------*/
+/*------------------sec5 atart----------------------*/
+.sec5{
+    background-color: #F7F8FC;
+    margin: 0px 10px 0px 10px;
+    padding-top: 30px;
+    position: relative;
+}
+.sec5 h5{
+    color: grey;
+    transition: all 1s;
+    text-decoration: underline #F7F8FC ;
+}
+.sec5 h5:hover{
+    text-decoration: underline #E67D22 ;
+    text-decoration-thickness: 4px;
+    cursor: pointer;
+}
+.sec5_heading{
+    width: 1200px;
+    display: flex;
+    margin-left: 100px;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 3;
+}
+.sec5_heading h2{
+    font-size: 40px;
+}
+
+.sec5_backtext{
+    color: rgba(231, 231, 231, 0.323);
+    margin: 0px;
+    padding: 0px;
+    font-size: 80px;
+    z-index: 2;
+    position: absolute;
+    top: -115px;
+    left: 55px;
+}
+.sec5_backtext h1{
+    width: 450px;
+    font-weight: 700;
+}
+/*------------------sec5 box start----------------------*/
+.box{
+    width: 100%;
+    margin-top: 150px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.child{
+    height: 430px;
+    width: 450px;
+    margin-top: 20px;
+}
+.bg{
+    height: 430px;
+    width: 450px;
+    background-color: rgba(67, 67, 67, 0.362);
+    display: none;
+    
+}
+.child:hover .bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.roun{
+    padding: 30px 22px;
+    background-image: linear-gradient(45deg,rgb(254,99,95),rgb(229,114,21));
+    border-radius: 1000px;
+    text-align: center;
+}
+.roun p{
+    margin: 0px;
+    color: white;
+    font-size: 13px;
+}
+.c1{
+    height: 430px;
+    width: 450px;
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-1.jpg);
+    background-size: cover;
+}
+.c2{
+    height: 430px;
+    width: 450px;
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-4.jpg);
+    background-size: cover;
+}
+.c3{
+    height: 430px;
+    width: 450px;
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-3.jpg);
+    background-size: cover;
+}
+.c4{
+    height: 430px;
+    width: 450px;
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-6.jpg);
+    background-size: cover;
+}
+.c5{
+    height: 430px;
+    width: 450px;
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-5.jpg);
+    background-size: cover;
+}
+.c6{
+    height: 430px;
+    width: 450px;
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-2.jpg);
+    background-size: cover;
+}
+/*------------------sec5 box end----------------------*/
+.orangediv2{
+    width: 100%;
+    height: 380px;
+    margin-top: 25px;
+    background-image: linear-gradient(to right,rgba(240, 115, 13, 0.956),rgba(254, 100, 95, 0.759)), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.orangediv2 div{
+    text-align: center;
+}
+.orangediv2 h1{
+    font-size: 45px;
+    margin: 5px;
+    font-weight: 700;
+}
+.orangediv2 p{
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0px;
+}
+.orangediv2 h5{
+    color: white;
+    margin: 40px;
+    font-size: 15px;
+    transition: all 1s;
+}
+.orangediv2 h5:hover{
+    color: white;
+    text-decoration: underline white 3px;
+}
+
+/*------------------sec5 end----------------------*/
+/*------------------sec6 start----------------------*/
+.sec6{
+    background-color: #F7F8FC;
+    margin: 0px 10px;
+    padding-top: 100px;
+    position: relative;
+}
+.sec6_heading h5{
+    color: grey;
+    transition: all 1s;
+    text-decoration: underline #F7F8FC ;
+}
+.sec6_heading h5:hover{
+    text-decoration: underline #E67D22 ;
+    text-decoration-thickness: 4px;
+    cursor: pointer;
+}
+.sec6_heading{
+    width: 1200px;
+    display: flex;
+    margin-left: 100px;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 3;
+}
+.sec6_heading h2{
+    font-size: 40px;
+}
+
+.sec6_backtext{
+    color: rgba(231, 231, 231, 0.323);
+    margin: 0px;
+    padding: 0px;
+    font-size: 80px;
+    z-index: 2;
+    position: absolute;
+    top: -45px;
+    left: 55px;
+}
+.sec6_backtext h1{
+    width: 450px;
+    font-weight: 700;
+}
+.sec6_box{
+    margin-top: 150px;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec6_child{
+    position: relative;
+    padding-bottom: 10px;
+    width: 250px;
+    background-color: white;
+}
+.social2{
+    background-color: #E67D22;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 180px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social2 img{
+    height: 20px;
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+.line2{
+     margin: 0px;
+    padding: 0px;
+    width: 40px;
+    height: 1px;
+    background-color: #da985f;
+}
+.sec6_child h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    margin-left: 30px;
+
+}
+.sec6_child h5{
+    color: grey;
+    margin: 0px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.sec6_child img{
+    height: 330px;
+    width: 250px;
+}
+.s6_img{
+    height: 280px;
+    width: 250px;
+    contain: content;
+}
+/*------------------sec6 end----------------------*/
+/*------------------sec7 start----------------------*/
+.sec7{
+    margin-top: 0px;
+    background-color: #F7F8FC;
+    padding-top: 180px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+   
+}
+.sec7_box1{
+    
+    height: 550px;
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    
+}
+
+.s7c1{
+    width: 400px;
+    position: absolute;
+    z-index: 5;
+    
+    
+}
+.s7c1 h1{
+    font-size: 41px;
+    font-weight: 600;    
+}
+.s7c1 p{
+    font-size: 18px;
+    color: grey;
+}
+.s7c1 h5{
+    font-size: 12px;
+    color: grey;
+    transition: all 1s;
+    text-decoration: underline #F7F8FC ;
+}
+.s7c1 h5:hover{
+    text-decoration: underline #E67D22 ;
+    text-decoration-thickness: 3px;
+    cursor: pointer;
+}
+.sec7_back{
+    font-size: 80px;
+    color: rgba(231, 231, 231, 0.323);
+    position: absolute;
+    left: 90px;
+    top: 300px;
+    z-index: 3;
+}
+.sec7_back h2{
+    margin: 0px;
+}
+.sec7_box2{
+   
+    width: 700px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s7b2c1{
+    width: 320px;
+    
+    
+}
+.s7b2c2{
+    width: 320px;
+    margin-top: 100px;
+
+}
+.s7b2c2 .s7_cont{
+    height: 230px;
+}
+.s7_cont{
+    border: white 2px solid;
+    background-color: white;
+    width: 320px;
+    height: 260px;
+    margin-bottom: 60px;
+    text-align: center;
+    position: relative;
+
+}
+.s7_cont div{
+    padding: 30px;
+    background-image: linear-gradient(45deg,rgb(254,99,95),rgb(229,114,21));
+    display: inline-block;
+    border-radius: 30px;
+    position: absolute;
+    top: -30px;
+    left: 130px;
+}
+.s7_cont h3{
+    margin: 45px 0px 5px;
+    padding: 0px;
+}
+.s7_cont h4{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(167, 167, 167);
+    font-weight: 300;
+}
+.s7_cont p{
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 10px 33px;
+    color: grey;
+}
+.s7_cont h6{
+    color: white;
+    position: absolute;
+    font-size: 80px;
+    top: -185px;
+    left: 20px;
+}
+/*------------------sec7 end----------------------*/
+/*------------------sec8 start----------------------*/
+.sec8{
+    padding-top: 100px;
+    position: relative;
+    padding-bottom: 100px;
+}
+.sec8_heading h5{
+    color: grey;
+    transition: all 1s;
+    text-decoration: underline white ;
+}
+.sec8_heading h5:hover{
+    text-decoration: underline #E67D22 ;
+    text-decoration-thickness: 4px;
+    cursor: pointer;
+}
+.sec8_heading{
+    width: 1200px;
+    display: flex;
+    margin-left: 100px;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 3;
+}
+.sec8_heading h2{
+    font-size: 40px;
+}
+
+.sec8_backtext{
+    color: rgba(231, 231, 231, 0.323);
+    margin: 0px;
+    padding: 0px;
+    font-size: 80px;
+    z-index: 2;
+    position: absolute;
+    top: -45px;
+    left: 55px;
+}
+.sec8_backtext h1{
+    width: 450px;
+    font-weight: 700;
+}
+.sec8_box{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sec8_child{
+    height: 465px;
+    margin-left: 25px;
+    width: 380px;
+    background-image: linear-gradient(158deg, #e47312, #ff6361);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+}
+.sec8_date{
+    width: 72px;
+    height: 116px;
+    background-color:white;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+}
+.sec8_date h3{
+    margin: 0px;
+    padding: 20px 0px;
+    font-size: 25px;
+    font-weight: 300;
+    background-image: linear-gradient(158deg, #e47312, #ff6361);
+}
+.sec8_date h5{
+    color: grey;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 15px;
+}
+.sec8_child img{
+    width: 380px;
+}
+.sec8_text{
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sec8_text h2{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.sec8_text p{
+    font-size: 17px;
+    font-weight: 100;
+}
+.sec8_text h5{
+    font-weight: 600;
+    text-decoration: underline 2px rgb(208, 208, 208) ;
+}
+.sec8_text h5:hover{
+    text-decoration: underline 2px rgb(255, 253, 253) ;
+}
+/*------------------sec8 end----------------------*/
+/*------------------sec9 start----------------------*/
+.sec9{
+    height: 200px;
+    color: white;
+    background-image: linear-gradient(56deg, #e47312, #ff6361);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec9 img{
+    width: 100px;
+}
+/*------------------sec9 end----------------------*/
+/*------------------footer sec10 start----------------------*/
+footer{
+    width: 82%;
+    height: 480px;
+    background-color: #0A1229;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 55px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.footer_logo{
+    background-color: #E47312;
+    width: 160px;
+    height: 110px;
+    justify-self: flex-start;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.footer_logo img{
+    height: 20px;
+}
+.footer_child{
+    width: 305px;
+}
+.footer_child h3{
+    display: flex;
+    align-items: center;
+}
+.footer_child h3::after{
+    content: '';
+    height: 1px;
+    width: 180px;
+    margin-left: 10px;
+    background-color: #ff6361;
+}
+.footer_child p{
+    font-size: 17px;
+}
+.footer_child h5{
+    margin-top: 15PX;
+    text-decoration: #0A1229 underline 2px;
+    transition: all 1s;
+}
+.footer_child h5:hover{
+    text-decoration: underline white 2px;
+}
+.footer_child h6{
+    margin: 10px 0px;
+    margin-left: 39px;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgb(163, 163, 163);
+}
+.foot_logo{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+.foot_logo h4{
+    font-size: 13px;
+    margin: 0px;
+}
+.foot_logo img{
+    width: 19px;
+    margin: 0px;
+    margin-right: 20px;
+
+}
+/*------------------footer sec10 end----------------------*/
